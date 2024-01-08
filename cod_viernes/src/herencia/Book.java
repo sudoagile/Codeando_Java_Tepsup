@@ -8,4 +8,12 @@ public class Book extends LibraryItem{
         super(id, titulo, disponible);
         this.autor = autor;
     }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
 }
